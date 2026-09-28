@@ -1,0 +1,23 @@
+variable "cluster_name" {
+  type = string
+}
+
+variable "vpc_id" {
+  type = string
+}
+
+variable "region" {
+  type = string
+}
+
+variable "efs_file_system_id" {
+  type = string
+}
+
+variable "oidc_provider_arn" {
+  type = string
+}
+
+variable "oidc_issuer_url" {
+  type = string
+}
